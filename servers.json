@@ -1,0 +1,8 @@
+[
+  {
+    "host": "ansible400.eastus.cloudapp.azure.com",
+    "port": 22,
+    "user": "azureuser",
+    "key": "/home/jaime/.ssh/ansible_rsa"
+  }
+]
