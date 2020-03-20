@@ -19,5 +19,5 @@ steps:
     playbookPathLinkedArtifactOnRemoteMachine: 'users.yml'
     inventoriesRemoteMachine: 'file'
     inventoryFileSourceRemoteMachine: 'agentMachine'
-    inventoryFileLinkedArtifactOnRemoteMachine: 'azure_rm.yml'
+    inventoryFileLinkedArtifactOnRemoteMachine: '/home/azureuser/azure_rm.yml'
     args: '--private-key ~/.ssh/ansible_rsa'
