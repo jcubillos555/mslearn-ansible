@@ -19,5 +19,5 @@ steps:
     playbookPathLinkedArtifactOnRemoteMachine: 'users.yml'
     inventoriesRemoteMachine: 'file'
     inventoryFileSourceRemoteMachine: 'ansibleMachine'
-    inventoryFileAnsibleMachineOnRemoteMachine: '/home/azureuser/hosts.yml'
+    inventoryFileAnsibleMachineOnRemoteMachine: '/home/azureuser/hosts'
     args: '--ssh-extra-args ''-o "StrictHostKeyChecking=no"'' --private-key ''~/.ssh/ansible_rsa'''
